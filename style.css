@@ -29,3 +29,55 @@ header {
 #active {
   color: #ff5400 !important;
 }
+
+/* main */
+/* banner section */
+main {
+  margin: 0px 100px;
+}
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.148)),
+    url("./Images/Group 13 (1) (1).png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#banner_title h1 {
+  font-size: 60px;
+  color: white;
+}
+#banner_title p {
+  color: white;
+  margin: 20px 0;
+}
+#banner_form {
+  background-color: rgba(240, 222, 222, 0.298);
+  padding: 10px;
+  border-radius: 10px;
+}
+#banner_form input,
+select {
+  padding: 10px;
+  width: 160px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+}
+#banner_form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  padding: 10px;
+  width: 160px;
+  background-color: #ff5400;
+  color: white;
+}
