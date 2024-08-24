@@ -81,3 +81,35 @@ select {
   background-color: #ff5400;
   color: white;
 }
+
+/* our_popular_tours */
+#our_popular_tours {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+#our_popular_tours_info h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#our_popular_tours_info p {
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+#our_popular_tours_info div {
+  margin: 15px 0 15px 20px;
+}
+
+#our_popular_tours_info div ul li {
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+#our_popular_tours_info button {
+  background-color: #ff5400;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
