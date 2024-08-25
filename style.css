@@ -227,3 +227,45 @@ select {
   padding: 50px;
   margin: 50px 0;
 }
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #banner_form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #banner_form select {
+    padding: 10px;
+    width: 180px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  #banner_form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 5px;
+    padding: 10px;
+    width: 180px;
+    background-color: #ff5400;
+    color: white;
+  }
+  #our_popular_tours {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #our_popular_tours_image img {
+    width: 400px;
+  }
+  #choose_your_destination_image1,
+  #choose_your_destination_image2,
+  #choose_your_destination_image3 {
+    flex-direction: column;
+  }
+}
