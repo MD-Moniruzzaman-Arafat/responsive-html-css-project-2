@@ -119,15 +119,18 @@ select {
   margin: 100px 0;
 }
 #choose_your_destination_title,
-#why_choose_us_title {
+#why_choose_us_title,
+#deals_discounts_title {
   text-align: center;
 }
 #choose_your_destination_title h1,
-#why_choose_us_title h1 {
+#why_choose_us_title h1,
+#deals_discounts_title h1 {
   font-size: 40px;
 }
 #choose_your_destination_title p,
-#why_choose_us_title p {
+#why_choose_us_title p,
+#deals_discounts_title p {
   margin: 20px 0 30px 0;
 }
 
@@ -168,4 +171,59 @@ select {
   padding: 15px;
   border-radius: 10px;
   border: 1px solid #d2eafb;
+}
+
+/* deals_discounts */
+#deals_discounts {
+  margin: 100px 0;
+}
+.deals_discounts_card1 {
+  background-image: url("./Images/Group 39.png");
+  background-size: cover;
+  height: 476px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
+}
+
+.deals_discounts_card_info_container {
+  background-color: #e1e8edec;
+  width: 400px;
+  padding: 35px;
+  border-radius: 10px;
+}
+.deals_discounts_card_date {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.deals_discounts_card_info h3 {
+  font-size: 25px;
+}
+.deals_discounts_card_info p {
+  margin: 10px 0;
+  line-height: 30px;
+}
+.deals_discounts_card_info h4 {
+  margin: 10px 0;
+  color: #ff5400;
+}
+.deals_discounts_card_info button {
+  background-color: #ff5400;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.deals_discounts_card2 {
+  background-image: url("./Images/Group 40.png");
+  background-size: cover;
+  height: 476px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin: 50px 0;
 }
